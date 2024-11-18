@@ -54,7 +54,7 @@ Authorization: `Bearer {token}`
 Host: `http://localhost/api`\
 Endpoint: `/orders/{id}`\
 Method: `DELETE`\
-Authorization: `Bearer {token}`\
+Authorization: `Bearer {token}`
 
 **7. Get orders:**\
 Host: `http://localhost/api`\
@@ -66,7 +66,7 @@ Authorization: `Bearer {token}`
 Host: `http://localhost/api`\
 Endpoint: `/orders/{id}`\
 Method: `GET`\
-Authorization: `Bearer {token}`\
+Authorization: `Bearer {token}`
 
 **9. Export orders:**\
 Host: `http://localhost/api`\
