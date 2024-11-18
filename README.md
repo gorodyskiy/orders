@@ -21,11 +21,8 @@
 **1. Register:**
 
 Host: `http://localhost/api`
-
 Endpoint: `/register`
-
 Method: `POST`
-
 Params: `name`, `email`, `password`, `password_confirmation`
 
 
