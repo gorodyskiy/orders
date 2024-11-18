@@ -15,15 +15,6 @@ services:
         networks:
             - orders
 
-    certbot:
-        image: certbot/certbot:latest
-        container_name: certbot
-        restart: unless-stopped
-        volumes:
-            - ./docker/ssl/:/var/www/certbot/:rw
-        networks:
-            - orders
-
     app:
         build:
             context: ./docker
