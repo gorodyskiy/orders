@@ -19,10 +19,15 @@
 
 ## API requests:
 **1. Register:**
+
 Host: `http://localhost/api`
+
 Endpoint: `/register`
+
 Method: `POST`
+
 Params: `name`, `email`, `password`, `password_confirmation`
+
 
 **2. Login:**
 Host: `http://localhost/api`
